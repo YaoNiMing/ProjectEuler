@@ -1,16 +1,6 @@
 #include <iostream>
 
 using namespace std;
-void print_grid(int n[5][5])
-{
-	for (int i=0;i<5;++i)
-	{
-		for (int j=0;j<5;++j)
-			printf("%4d",n[i][j]);
-		cout << endl;
-	}
-			
-}
 int main()
 {
 	long int n[22][22]={0};
@@ -23,6 +13,5 @@ int main()
 		}
 	}
 	cout << n[21][21] << endl;
-	//print_grid(n);
 	return 0;
 }
